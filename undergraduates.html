@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Undergraduate</title>
+        <link href="styles.css" rel="stylesheet" />
+        <link href="navstyle.css" rel="stylesheet" />
+    </head>
+    
+    <div class="center">
+        <h2>Undergraduate Studies</h2>
+      </div>    
+      
+      <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar">
+            <a href="home-page.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn"> <link href = "why-cs-major.html"/>Why be a CS Major?</button>
+                <div class="dropdown-content">
+                    <a href="why-cs-major.html">Why CS?</a> 
+                    <a href="job-salary.html">Jobs & Salary</a> 
+                </div>
+            </div>
+            <a href="learn.html">Being a CS Major</a>
+            <div class="dropdown">
+                <button class="dropbtn"> <link href = "why.html"/>Why OC</button>
+                <div class="dropdown-content">
+                    <a href="why.html">More Info on OC</a>
+                    <a href="undergraduates.html">Undergraduate</a>
+                    <a href="graduates.html">Graduate</a>
+                </div>
+            </div>
+            <a href="Learn.html">Learn More About CS</a>
+            <a href="About">About Us</a>
+        </nav>
+
+            <h3>Check out these udergraduate studies OC offers!</h3>
+            <section id="contact">
+                <div class="container px">
+                    <div class="row">
+                        <div class="col">
+                            <button class="accordion">Computer Science</button>
+                            <div class="panel">
+                              <p>This degree plan is for students who are interested purely in a career of focused computer science theory and practice of algorithms.
+                                <br>Interested? Check out the degree plan!<br>
+                                <div class="links" style="font-size: 25px"><a href="https://www.oc.edu/academics/undergraduate-programs/computer-science/b-s-degree-in-computer-science"> Degree in Computer Science</a></div>
+                              </p>
+                            </div>
+                            
+                            <button class="accordion">Computer Science with Business</button>
+                            <div class="panel">
+                              <p>This degree plan is for students who are interested combining business and computer science to understand how technology is intergrated in modern day businesses. 
+                                <br>Interested? Check out the degree plan!<br>
+                                <div class="links" style="font-size: 25px"><a href="https://www.oc.edu/academics/undergraduate-programs/computer-science/b-s-degree-in-computer-science-with-business"> Degree in Computer Science with Business</a></div>
+                              </p>
+                            </div>
+                            
+                            <button class="accordion">Computer Science with Cybersecurity</button>
+                            <div class="panel">
+                              <p>This degree plan is for students who are interested in a career where they can use the skills they've learned to protect data and improve network security. In today's computer-reliant world, information assurance and protection from cyber threats is a necessity. 
+                                <br>Interested? Check out the degree plan!<br>
+                                <div class="links" style="font-size: 25px"><a href="https://www.oc.edu/academics/undergraduate-programs/computer-science/b-s-degree-in-computer-science-with-cybersecurity"> Degree in Computer Science with Cybersecurity</a></div>
+                              </p>        
+                            </div>
+
+                            <button class="accordion">Computer Science with Gaming and Animation</button>
+                            <div class="panel">
+                              <p>This degree plan is for students who are interested in bringing 3D models to life while using computer science skills to build virtual spaces. 
+                                <br>Interested? Check out the degree plan!<br>
+                                <div class="links" style="font-size: 25px"><a href="https://www.oc.edu/academics/undergraduate-programs/computer-science/b-s-degree-in-computer-science-with-gaming-and-animation"> Degree in Computer Science with Gaming and Animation</a></div>
+                              </p>                             
+                        </div>
+                    </div>
+                </div>
+            </section>
+           
+            <script>
+                var acc = document.getElementsByClassName("accordion");
+                var i;
+                
+                for (i = 0; i < acc.length; i++) {
+                  acc[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.display === "block") {
+                      panel.style.display = "none";
+                    } else {
+                      panel.style.display = "block";
+                    }
+                  });
+                }
+                </script>
+    </body>
+            
